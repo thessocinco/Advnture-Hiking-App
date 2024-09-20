@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/bt_refresh"
+        android:title="REFRESH"
+        app:showAsAction="always"
+        android:visible="false"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/bt_settings"
+        android:title="Bluetooth settings"
+        tools:ignore="HardcodedText" />
+</menu>

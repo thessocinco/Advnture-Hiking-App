@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="letsgohikingpage.LetsGoHiking">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_160sdp"
+        android:text="Let's Go"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/_20ssp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,TextContrastCheck" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:text="HIKING!"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/_60ssp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/buttonLoginStart"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginLeft="@dimen/_50sdp"
+        android:layout_marginTop="@dimen/_160sdp"
+        android:layout_marginRight="@dimen/_50sdp"
+        android:text="Start"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/_13ssp"
+        android:textStyle="bold"
+        app:cornerRadius="@dimen/_20sdp"
+        tools:ignore="HardcodedText,VisualLintButtonSize" />
+
+</LinearLayout>

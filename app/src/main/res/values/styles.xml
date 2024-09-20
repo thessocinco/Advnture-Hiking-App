@@ -1,0 +1,29 @@
+<!--suppress ALL -->
+<resources>
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    <!-- Change ActionBar title color -->
+    <item name="android:textColorPrimary">@color/titleColor</item>
+
+    <item name="actionOverflowButtonStyle">@style/OverflowMenuButtonStyle</item>
+
+    <item name="android:itemTextAppearance">@style/MyPopupMenuTextAppearance</item>
+
+    </style>
+
+    <style name="OverflowMenuButtonStyle" parent="Widget.AppCompat.ActionButton.Overflow">
+    <item name="android:tint">@color/my_overflow_icon_color</item>
+    <!-- For older devices, you might need to use a custom drawable:
+    <item name="android:src">@drawable/my_custom_overflow_icon</item> -->
+    </style>
+
+        <!-- Define the text appearance to specify the text color -->
+    <style name="MyPopupMenuTextAppearance" parent="TextAppearance.AppCompat">
+    <item name="android:textColor">@color/colorBlack</item>
+    <!-- You can also set other text attributes here -->
+    </style>
+
+</resources>

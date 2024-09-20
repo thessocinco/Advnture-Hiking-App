@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#d84315</color>
+    <color name="colorPrimaryDark">#bf360c</color>
+    <color name="colorAccent">#ff6e40</color>
+
+    <color name="colorRecieveText">#000000</color>
+    <color name="colorStatusText">#000000</color>
+
+    <color name="titleColor">#FFFFFF</color>
+
+    <color name="my_overflow_icon_color">#FFFFFF</color>
+
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+    <color name="customToastBackground">#FFFFFF</color>
+
+    <color name="colorVerticalLine">#000000</color>
+
+    <color name="colorTableRow">#ECECEC</color>
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Simple Bluetooth Terminal</string>
+    <string name="devices">Bluetooth Devices</string>
+
+    <string name="bluetooth_permission_title">Bluetooth permission</string>
+    <string name="bluetooth_permission_grant">Bluetooth permission is required by this App.</string>
+    <string name="bluetooth_permission_denied">Bluetooth permission was permanently denied.</string>
+    <string name="title_activity_splash_view">SplashView</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+</resources>
